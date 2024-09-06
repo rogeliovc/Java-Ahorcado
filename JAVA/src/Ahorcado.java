@@ -30,7 +30,7 @@ public class Ahorcado {
 
             if(!letraCorrecta){
                 intentos++;
-                System.err.println("!letra incorrecta! te quedan: " + (intentosMaximos-intentos) + "intentos");
+                System.err.println("!letra incorrecta! te quedan: " + (intentosMaximos-intentos) + " intentos");
             }
             if(String.valueOf(letrasAdivinadas).equals(palabraSecreta)){
                 palabraAdivinada = true;
